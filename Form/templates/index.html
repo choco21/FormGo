@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../resources/css.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="POST" action="http://localhost:8080/datos">
+        <img src="../resources/Go.png">
+        <table>
+            <tr><td> <label for="nom">Nombre </label></td>
+                <td> <input type="text" id="nom" name="nombre" required="true" placeholder="Nombre"></td>
+            <tr>
+
+            <tr>
+                <td> <label for="apellido">Apellidos </label></td>
+                <td> <input type="text" id="ape" name="apellido" required="true" placeholder="Apellido"></td>
+            </tr>
+            <tr>
+                <td> <label for="tel">Telefono </label></td>
+                <td> <input type="text" id="tel" name="telefono" required="true" placeholder="Ocho digitos"></td>
+            </tr>
+            
+            <tr>
+                <td> <label for="co">Correo </label></td>
+                <td> <input type="text" id="co" name="correo" required="true" placeholder="miCorreo@gmial.com"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="sub">Subscrito</label> <input type="checkbox" id="sub" name="subscrito"></td>
+            </tr>
+
+            <tr><td colspan="2"><input type="submit" id="boton"></td></tr>
+        </table>
+    </form>
+    <h4>copyright Jose Leon, Pablo Elizondo</h4>
+</body>
+</html>

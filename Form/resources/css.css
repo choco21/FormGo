@@ -1,0 +1,43 @@
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+	text-align: center;
+	background-color: #637EC3;
+}
+tr{
+	font-size: 2em;
+	font-family: cursive;
+	color: White;
+}
+input{
+	background-color: White;
+	font-family: cursive;
+	color: #152F72;
+	width: 20em;
+	font-size: 0.7em;
+	border-radius: 10em;
+	border: black solid;
+}
+h4{
+	font-family: cursive;
+	color: white;
+}
+
+img{
+	width: 15em;
+	height: 15em;
+	margin: 2em 0 2em 0;
+}
+
+#sub{
+	width: 3em;
+	height: 1em;
+	background-color: red;
+	background-color: gray
+}
+
+#boton{
+	width: 10em;
+	background-color: gray;
+	color: white; 
+}
